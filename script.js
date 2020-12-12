@@ -144,41 +144,20 @@ const questions = [
   }
 ]
 
-const settings = {
-	"async": true,
-	"crossDomain": true,
-	"url": "https://giphy.p.rapidapi.com/v1/gifs/random?api_key=undefined&tag=null",
-	"method": "GET",
-	"headers": {
-		"x-rapidapi-key": "3a4721856emshb056b91d84c0932p15df4fjsn2dddcd86d5f3",
-		"x-rapidapi-host": "giphy.p.rapidapi.com"
-	}
-};
+// const settings = {
+// 	"async": true,
+// 	"crossDomain": true,
+// 	"url": "https://giphy.p.rapidapi.com/v1/gifs/random?api_key=undefined&tag=null",
+// 	"method": "GET",
+// 	"headers": {
+// 		"x-rapidapi-key": "3a4721856emshb056b91d84c0932p15df4fjsn2dddcd86d5f3",
+// 		"x-rapidapi-host": "giphy.p.rapidapi.com"
+// 	}
+// };
 
-$.ajax(settings).done(function (response) {
-	console.log(response);
-});
+// $.ajax(settings).done(function (response) {
+// 	console.log(response);
+// });
 
 
-{2 items
-    "data":{19 items
-    "type":"gif"
-    "id":"lAkQsprC9kT2U"
-    "url":"http://giphy.com/gifs/christian-bale-american-psycho-americanpsycho-lAkQsprC9kT2U"
-    "image_original_url":"http://s3.amazonaws.com/giphymedia/media/lAkQsprC9kT2U/giphy.gif"
-    "image_url":"http://s3.amazonaws.com/giphymedia/media/lAkQsprC9kT2U/giphy.gif"
-    "image_mp4_url":"http://s3.amazonaws.com/giphymedia/media/lAkQsprC9kT2U/giphy.mp4"
-    "image_frames":"11"
-    "image_width":"500"
-    "image_height":"426"
-    "fixed_height_downsampled_url":"http://s3.amazonaws.com/giphymedia/media/lAkQsprC9kT2U/200_d.gif"
-    "fixed_height_downsampled_width":"235"
-    "fixed_height_downsampled_height":"200"
-    "fixed_width_downsampled_url":"http://s3.amazonaws.com/giphymedia/media/lAkQsprC9kT2U/200w_d.gif"
-    "fixed_width_downsampled_width":"200"
-    "fixed_width_downsampled_height":"170"
-    "rating":"pg"
-    "username":""
-    "caption":""
-    "tags":[...]4 items
 
